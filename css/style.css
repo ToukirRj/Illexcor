@@ -623,8 +623,8 @@ hr{
 	--bs-accordion-inner-border-radius:0;
 }
 .accordion-button:not(.collapsed) {
-	background-color:#ffdddf;
-    color:#1A1363;
+	background-color: #eac7c9;
+	color: #1A1363;
 }
 .accordion-body table tr{
     border-top: 1px solid #e6e6e6;
@@ -649,6 +649,49 @@ hr{
 .accordion-body table tr td a:hover{
     text-decoration:underline;
 }
+.inner-area a.withlink{
+	font-size: 18px;
+	font-weight: 400;
+	color:rgb(28, 28, 199);
+    margin-bottom:25px;
+    display:flex;
+    align-items:center;
+}
+.inner-area a.withlink:hover{
+	text-decoration:underline;
+}
+.default-form {
+	width: 100%;
+	padding: 50px;
+	border-radius: 15px;
+	background: #fff;
+	border: 5px solid rgba(24, 35, 43, 0.15);
+}
+.default-form .form-group {
+	width: 100%;
+	margin-bottom: 15px;
+}
+.default-form .form-group label {
+	font-size: 14px;
+	font-weight: 500;
+	width: 100%;
+	color: #000;
+	margin-bottom: 3px;
+}
+.default-form .form-group input, 
+.default-form .form-group textarea {
+	font-size: 16px;
+	font-weight: 400;
+	width: 100%;
+	border: 2px solid #DFE3E7;
+	border-radius: 5px;
+	color: #000;
+	background: #fff;
+}
+.default-form .form-group input {
+	height: 44px;
+}
+
 
 
 
