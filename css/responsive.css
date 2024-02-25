@@ -85,90 +85,63 @@
         line-height: 27px;
         margin-bottom: 20px;
     }
-    .step-area h2{
-        font-size: 27px;
+    .about-area .about-text {
+        min-height:auto;
+        margin-bottom:10px;
     }
-    .step-area .each-step{
-        margin: 0 !important;
+    .about-area .about-text.gray {
+        margin-bottom:0px;
     }
-    .step-area .each-step::after{
-        right: -10%;
+    .about-area .about-text h2 {
+        font-size: 18px;
     }
-    .step-area{
-        padding: 40px 0 50px;
-    }
-    .about-area .about-img{
-        margin-bottom: 20px;
-    }
-    .head-text h2 {
-        font-size: 32px;
-    }
-    .about-text p {
-        margin-bottom: 20px;
-    }
-    .about-area {
-        padding-bottom: 50px;
-    }
-    .service-area .head-text p {
-        font-size: 15px;
-    }
-    .service-box {
-        margin: 15px 0;
-    }
-    .service-box h4 {
-        font-size: 20px;
-    }
-    .service-box p {
-        font-weight: 400;
-    }
-    .service-area {
-        padding: 0 0 50px;
-    }
-    .about-text {
-        margin-bottom:20px;
-    }
-    .testimonial-area {
-        padding: 0px 0 50px 0;
-    }
-    .testimonial-area .head-text.oposite-head.text-end{
-        text-align:center!important;
-    }
-    .testimonial-area .head-text.oposite-head h5 {
-        padding-right:0px;
-        margin-bottom:5px;
-    }
-    .testimonial-area .head-text h2 {
-        margin-bottom: 5px;
-    }
-    .testimonial-area .head-text p{
-        margin-top: 5px;
-        font-size:16px;
-        font-weight:400;
-    }
-    .testimonial-area .carousel-item {
-        padding-left: 0px;
-    }
-    .testimonial-area .head-text h5::after {
-        display:none;
-    }
-    .newslater-field {
-        padding: 40px 0;
-    }
-    .newslater-area p {
+    .about-area .about-text p {
         font-size: 16px;
-        padding: 0 20px;
-    } 
-    .profile-info {
-        margin-bottom:20px;
+    }
+    .about-area .about-text .learn-btn {
+        font-size: 14px;
+        padding: 10px 45px;
+    }
+    .footer-logo {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .footer-area .social {
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .banner-area .banner-field.inner-banner .banner-content h2 {
+        font-size: 30px;
+    }
+    .submenu-area .menu-bar a {
+        font-size: 14px;
+        padding: 6px 20px;
+    }
+    .submenu-area{
+        width:100%;
+        overflow-x: auto;
+    }
+    .submenu-area .menu-bar {
+        white-space:nowrap;
+        justify-content:flex-start;
+    }
+    .inner-area {
+        padding: 50px 0;
+    }
+    .inner-area h2 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+    .inner-area p {
+        font-size: 16px;
+        line-height: 24px;
     }
 }
 
 @media only screen and (max-width: 767px) {
     .smoth-scroll {
         display: none !important;
-    }
-    .banner-area .banner-field {
-        background-position: right;
     }
     .all-steps{
         flex-direction:column;
