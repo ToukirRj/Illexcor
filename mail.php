@@ -14,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $comment = $_POST['comment'];
 
     // Set up email
-    $to = "to.toukir.rahman@gmail.com"; // Change this to your email address
+    $to = "bd@illexcor.com"; // Change this to your email address
     $subject = "New Message from your website Contact Form!";
     $body = "Name: $fname $lname\nEmail: $email\nTitle: $title\nCompany: $company\nCountry: $country\nWork Phone: $work\nFAX: $fax\nHome Phone: $home\n\nMessage:\n$comment";
 

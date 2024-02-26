@@ -780,8 +780,25 @@ hr{
     letter-spacing:0.3px;
 }
 
+.modal-description h4{
+	margin-bottom: 10px;
+}
+
 .thumbnail p{
     display:none;
+}
+
+.thumbnail a.linkedin{
+    display:none;
+}
+
+.modal-description a.linkedin{
+	display: table;
+	margin: auto auto 25px;
+}
+
+.modal-description a.linkedin:hover{
+	opacity:0.8;
 }
 
 .modal-description p{
@@ -819,13 +836,9 @@ hr{
 	width: 100%;
 	height: auto;
 	max-height: 100%;
-	overflow-y: auto;
 	padding: 30px;
 	position: relative;
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	align-items: center;
+	overflow-y: auto;
 }
 
 .modal-area .close{
@@ -836,11 +849,10 @@ hr{
     cursor:pointer;
 }
 
-.modal-area .prev,
-.modal-area .next{
-	position:absolute;
-    top:45%;
-    cursor:pointer;
+.modal-area .prev, .modal-area .next {
+	position: absolute;
+	top: 30%;
+	cursor: pointer;
 }
 
 .modal-area .next{
